@@ -1,6 +1,6 @@
 # lita-down
-[![Build Status](https://travis-ci.org/nTraum/lita-down.png?branch=master)](https://travis-ci.org/nTraum/lita-down)
-[![Coverage Status](https://coveralls.io/repos/nTraum/lita-down/badge.png)](https://coveralls.io/r/nTraum/lita-down)
+[![Build Status](https://travis-ci.org/nTraum/lita-down.svg?branch=master)](https://travis-ci.org/nTraum/lita-down)
+[![Coverage Status](https://coveralls.io/repos/nTraum/lita-down/badge.svg?branch=master&service=github)](https://coveralls.io/github/nTraum/lita-down?branch=master)
 
 Lita plugin that reports if a website is down or not, similar to [isup.me](isup.me).
 
