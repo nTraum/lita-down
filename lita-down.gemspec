@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-down'
-  spec.version       = '1.0.0'
+  spec.version       = '1.0.1'
   spec.authors       = ['Philipp Preß']
   spec.email         = ['philipp.press@googlemail.com']
   spec.description   = 'Lita plugin that reports if a website is down or not.'
