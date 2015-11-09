@@ -1,0 +1,9 @@
+require: rubocop-rspec
+
+Style/DoubleNegation:
+  Exclude:
+    - 'lib/lita/handlers/down.rb'
+
+Style/FileName:
+  Exclude:
+    - 'lib/lita-down.rb'
