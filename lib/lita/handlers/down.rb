@@ -4,9 +4,9 @@ module Lita
   module Handlers
     # Checks if a website is down or not.
     class Down < Handler
-      HTTP_PREFIX = 'http://'
+      HTTP_PREFIX = 'http://'.freeze
       HTTP_HTTPS_REGEX = %r{^http(s)?://}
-      HELP = { 'Is example.com down?' => 'Checks if example.com is down.' }
+      HELP = { 'Is example.com down?' => 'Checks if example.com is down.' }.freeze
 
       route(/^Is\s+(?<host>.+)\s+down\?/i, :down, help: HELP)
 
