@@ -1,5 +1,8 @@
 require: rubocop-rspec
 
+Metrics/LineLength:
+  Max: 120
+
 Style/DoubleNegation:
   Exclude:
     - 'lib/lita/handlers/down.rb'
